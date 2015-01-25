@@ -1,11 +1,11 @@
 {
   "name": "coyno-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mongo wrapper library",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/coyno/coyno-mongo.git"
+    "type": "git",
+    "url": "http://github.com/coyno/coyno-mongo.git"
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
@@ -23,7 +23,7 @@
   "dependencies": {
     "coyno-config": "^0.0.1",
     "coyno-log": "^0.0.1",
-    "mongodb": "^1.4.29"
+    "mongodb": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^1.10.0",
