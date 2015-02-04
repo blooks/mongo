@@ -21,8 +21,8 @@
     "build": "gulp"
   },
   "dependencies": {
-    "coyno-config": "^0.0.12",
-    "coyno-log": "^0.0.12",
+    "coyno-config": "^0.0.13",
+    "coyno-log": "^0.0.13",
     "mongodb": "^2.0.14"
   },
   "devDependencies": {
