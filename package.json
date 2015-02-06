@@ -1,6 +1,6 @@
 {
   "name": "coyno-mongo",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Mongo wrapper library",
   "main": "index.js",
   "repository": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "coyno-config": "^0.0.13",
     "coyno-log": "^0.0.13",
-    "mongodb": "^1.4.30"
+    "mongodb": "^2.0.15"
   },
   "devDependencies": {
     "chai": "^1.10.0",
