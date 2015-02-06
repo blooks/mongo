@@ -1,6 +1,6 @@
 {
   "name": "coyno-mongo",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Mongo wrapper library",
   "main": "index.js",
   "repository": {
