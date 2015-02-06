@@ -27,7 +27,7 @@
   "dependencies": {
     "coyno-config": "^0.0.13",
     "coyno-log": "^0.0.13",
-    "mongodb": "^2.0.14"
+    "mongodb": "^1.4.30"
   },
   "devDependencies": {
     "chai": "^1.10.0",
