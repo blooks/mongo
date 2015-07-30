@@ -11,4 +11,8 @@ deployment:
   production:
     branch: master
     commands:
-      - npm publish
+    - npm publish
+
+machine:
+  services:
+    - mongodb
