@@ -1,6 +1,6 @@
 {
   "name": "coyno-mongo",
-  "version": "0.0.12",
+  "version": "0.2.0",
   "description": "Mongo wrapper library",
   "main": "index.js",
   "repository": {
@@ -12,18 +12,21 @@
     {
       "name": "Leopoldo Godines",
       "email": "lg@leopoldogodines.com"
+    },
+    {
+      "name": "Levin Keller",
+      "email": "levin@coyno.com"
     }
   ],
   "scripts": {
     "lint": "gulp lint",
-    "test": "gulp test",
+    "test": "mocha test",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
   "dependencies": {
-    "coyno-config": "^0.0.13",
-    "coyno-log": "^0.0.13",
-    "mongodb": "^2.0.14"
+    "coyno-log": "0.0.x",
+    "mongodb": "^2.0.39"
   },
   "devDependencies": {
     "chai": "^1.10.0",
