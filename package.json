@@ -1,6 +1,6 @@
 {
   "name": "coyno-mongo",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Mongo wrapper library",
   "main": "index.js",
   "repository": {
@@ -20,13 +20,13 @@
   ],
   "scripts": {
     "lint": "gulp lint",
-    "test": "gulp test",
+    "test": "mocha test",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
   "dependencies": {
     "coyno-log": "0.0.x",
-    "mongodb": "2.0.x"
+    "mongodb": "^2.0.39"
   },
   "devDependencies": {
     "chai": "^1.10.0",
