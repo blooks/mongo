@@ -25,6 +25,9 @@
     },
     "extends": "standard"
   },
+  "standard": {
+    "env": ["node","mocha"]
+  },
   "scripts": {
     "lint": "gulp lint",
     "test": "mocha test",
