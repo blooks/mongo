@@ -1,6 +1,6 @@
 {
   "name": "@blooks/mongo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mongo wrapper library",
   "main": "index.js",
   "repository": {
@@ -26,7 +26,10 @@
     "extends": "standard"
   },
   "standard": {
-    "env": ["node","mocha"]
+    "env": [
+      "node",
+      "mocha"
+    ]
   },
   "scripts": {
     "lint": "gulp lint",
